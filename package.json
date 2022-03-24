@@ -1,0 +1,19 @@
+{
+  "name": "cashapp-csv-to-quickbooks",
+  "version": "0.1.0",
+  "description": "cash app csv to quickbooks self-employed csv",
+  "main": "lib/cashapp-csv-to-quickbooks.js",
+  "repository": "https://github.com/kungfuflex/cashapp-csv-to-quickbooks",
+  "author": "flex",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "cashapp-csv-to-quickbooks": "./bin/convert.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "lodash": "^4.17.21",
+    "yargs": "^17.4.0"
+  },
+  "license": "MIT
+}
